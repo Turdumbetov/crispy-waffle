@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+a{text-decoration: none;}
+
+.header-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+}
+
+.header-main2 .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1440px;
+    margin: 30px 0;
+}
+
+.menu .main{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.main .one{
+    margin: 0 20px;
+}
+.main .two{
+    margin: 0 20px;
+}
+.main .three{
+    margin: 0 20px;
+}
+.main .four{
+    margin: 0 20px;
+}
+
+.main button{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border: solid 2px  #0156FF;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #0156FF;
+}
+
+.menu .main2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main2 .one{
+    margin: 0 30px;
+}
+
+.phone{
+    width: 1440px;
+    display: flex;
+    align-items: center;
+}
+
+.section .new_products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.section .new_products h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+}
+
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section-1 .img-1{
+    width: 235px;
+    height: 346px;
+    
+    background: #FFFFFF;
+    padding: 20px 20px;
+
+}
+
+.section-1 .img-1 span{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 210%;
+
+    color: #78A962;
+}
+
+.section-1 .img-1 .red{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #C94D3F;
+}
+
+.section-1 .img-1 p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    
+    color: #000000;
+}
+
+.section-1 .img-1 h3{
+    font-family: 'Poppins', sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    
+    color: #000000;
+}
+
+.section .zip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section .zip p{
+    margin: 50px 20px;
+}
+
+
+.section-2{
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.section-2 .img{
+    margin: 0 10px;
+}
+.section-2 .img h1{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 130%;
+
+color: #FFFFFF;
+padding: 140px 70px;
+text-align: center;
+}
+
+.section-2 .img p{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 115%;
+    
+    color: #FFFFFF;
+    padding: 300px 60px;
+}
+
+.section-2 .img-1{
+    width: 235px;
+    height: 346px;
+    
+    background: #FFFFFF;
+}
+
+.section-2 .img-1 span{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 210%;
+
+    color: #78A962;
+}
+
+.section-2 .img-1 p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+    padding: 20px 0;
+}
+
+.section-2 .img-1 h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    
+    color: #000000;
+}
